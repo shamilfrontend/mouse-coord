@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 768px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 10px;
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: 1px solid #000;
+}
+
+.output-result span {
+    color: #ff0000;
+}
